@@ -7,6 +7,7 @@ window.onload = function () {
             getElementValueById("studentName") !== "") {
 
             document.getElementById("score").innerHTML = "得分：" + computeTotalScore(0);
+            alert("提交成功！可以在卷头查看分数了！");
         } else {
             alert("请补全班级、学号、姓名等信息！");
         }
